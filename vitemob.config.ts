@@ -10,7 +10,7 @@ export default defineConfig({
       inject: {
         data: {
           injectMainScript:
-            '<script type="module" src="./src/main.tsx"></script>',
+            '<script type="module" src="./src/mobMain.tsx"></script>',
         },
       },
       minify: true,
